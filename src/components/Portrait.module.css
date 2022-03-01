@@ -1,0 +1,27 @@
+.title {
+    font-size: 2rem;
+    color: skyblue;
+    font-weight: bold;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.portrait {
+    /* position: center;
+    text-align: center; */
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    /* display: block; */
+    border: 2px solid black;
+    margin: 0 auto;
+    display: absolute;
+    align-items: center;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.text {
+    text-align: right;
+    float: right;
+}

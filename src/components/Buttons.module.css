@@ -1,0 +1,42 @@
+.btn {
+    display: inline-flex;
+    text-align: center;
+    transform: translateY(200%);
+    line-height : 5px;
+}
+
+.projects {
+    display: inline;
+    text-align: center;
+    float: left;
+    font-size: 2rem;
+    margin-right: 20px;
+    cursor: pointer;
+    background: purple;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.resume {
+    display: inline;
+    text-align: center;
+    float: right;
+    font-size: 2rem;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: purple;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.projects:hover {
+    opacity: 1;
+    background: rgb(80, 79, 79);
+}
+
+.resume:hover {
+    opacity: 1;
+    background: rgb(80, 79, 79);
+}

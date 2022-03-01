@@ -1,0 +1,43 @@
+.iconContainer {
+    max-width: 55%;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.youtube {
+    color: black;
+    margin-left: 50px;
+}
+
+.github {
+    color: black;
+    margin-left: 15px;
+}
+
+.linkedin {
+    color: black;
+    margin-left: 15px;
+}
+
+.iconContainer .youtube:hover{
+    margin-left: 2px;
+    color: red;
+    cursor:pointer;
+    margin-left: 50px;
+}
+
+.iconContainer .github:hover{
+    margin-left: 2px;
+    color: gray;
+    cursor:pointer;
+    margin-left: 15px;
+}
+
+.iconContainer .linkedin:hover{
+    margin-left: 2px;
+    color: rgb(14, 118, 168);
+    cursor:pointer;
+    margin-left: 15px;
+}
