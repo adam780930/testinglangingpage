@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/personallandingpage/static/css/main.3618d0f4.css",
+    "main.js": "/personallandingpage/static/js/main.f0f4c7ab.js",
+    "static/media/bgi.jpg": "/personallandingpage/static/media/bgi.ab348ddd7c18095af210.jpg",
+    "static/media/pfp2.jpg": "/personallandingpage/static/media/pfp2.82869e5ebb3ac75fb9f5.jpg",
+    "static/media/resume.pdf": "/personallandingpage/static/media/resume.bed36711db0edd759165.pdf",
+    "static/media/pfp.jpg": "/personallandingpage/static/media/pfp.f74278fc191c338c6ffe.jpg",
+    "index.html": "/personallandingpage/index.html",
+    "main.3618d0f4.css.map": "/personallandingpage/static/css/main.3618d0f4.css.map",
+    "main.f0f4c7ab.js.map": "/personallandingpage/static/js/main.f0f4c7ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3618d0f4.css",
+    "static/js/main.f0f4c7ab.js"
+  ]
+}
