@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/personallandingpage/static/css/main.3618d0f4.css",
-    "main.js": "/personallandingpage/static/js/main.cb742c0a.js",
-    "static/media/bgi.jpg": "/personallandingpage/static/media/bgi.ab348ddd7c18095af210.jpg",
-    "static/media/pfp2.jpg": "/personallandingpage/static/media/pfp2.82869e5ebb3ac75fb9f5.jpg",
-    "static/media/resume.pdf": "/personallandingpage/static/media/resume.bed36711db0edd759165.pdf",
-    "static/media/pfp.jpg": "/personallandingpage/static/media/pfp.f74278fc191c338c6ffe.jpg",
-    "index.html": "/personallandingpage/index.html",
-    "main.3618d0f4.css.map": "/personallandingpage/static/css/main.3618d0f4.css.map",
-    "main.cb742c0a.js.map": "/personallandingpage/static/js/main.cb742c0a.js.map"
+    "main.css": "/static/css/main.be58b9a4.css",
+    "main.js": "/static/js/main.81ebcabd.js",
+    "static/media/bgi.jpg": "/static/media/bgi.ab348ddd7c18095af210.jpg",
+    "static/media/pfp2.jpg": "/static/media/pfp2.82869e5ebb3ac75fb9f5.jpg",
+    "static/media/resume.pdf": "/static/media/resume.bed36711db0edd759165.pdf",
+    "static/media/pfp.jpg": "/static/media/pfp.f74278fc191c338c6ffe.jpg",
+    "index.html": "/index.html",
+    "main.be58b9a4.css.map": "/static/css/main.be58b9a4.css.map",
+    "main.81ebcabd.js.map": "/static/js/main.81ebcabd.js.map"
   },
   "entrypoints": [
-    "static/css/main.3618d0f4.css",
-    "static/js/main.cb742c0a.js"
+    "static/css/main.be58b9a4.css",
+    "static/js/main.81ebcabd.js"
   ]
 }
