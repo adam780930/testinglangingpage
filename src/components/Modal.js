@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Modal.module.css';
 import PdfComponent from './PdfComponent';
-import PdfResume from '../resume.pdf';
+import PdfResume from '../materials/resume.pdf';
 
 function Modal({ closeModal }) {
 

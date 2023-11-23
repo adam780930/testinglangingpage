@@ -1,9 +1,10 @@
-import classes from './Portrait.module.css'
+import classes from './Portrait.module.css';
+import pfp from '../materials/pfp.jpg';
 
 function Portrait() {
     return (
         <div className={classes.title}>
-            <img src='https://i.redd.it/jqt9q5252uj71.jpg' className={classes.portrait} alt=""></img>
+            <img src={pfp} className={classes.portrait} alt=""></img>
         </div>
     );
 }

@@ -1,17 +1,23 @@
 import classes from './AboutPage.module.css';
-// import Portrait from '../components/Portrait';
+import pfp2 from '../materials/pfp2.jpg';
 
 function AboutPage() {
     return (
         
-        <div className={classes.title}>
-            <img src='https://i.redd.it/jqt9q5252uj71.jpg' className={classes.portrait} alt=""></img>
-            <span className={classes.text}>
-                Hi, I am Adam
-            </span>
-            <p className={classes.text2}>A self-taught front-end-developer currently pursuing opportunities
-            to begin my career in the web developer industry.
-            </p>
+        <div className={classes.content}>
+            <img src={pfp2} 
+            className={classes.portrait} alt=""></img>
+            
+            <header className={classes.text}><span>Hi, I am Adam</span> <br></br>
+            A self-taught front-end-developer currently pursuing opportunities to begin my career<br></br>
+            in the web developer industry. <br></br>
+            I am currently located in Los Angeles, California. I can make websites
+            using HTML, CSS, JAVASCRIPT and REACTJS. <br></br>
+            I am always looking to learn more and open for all opportunities and projects.
+            
+            </header>
+
+
             
         </div>
     );

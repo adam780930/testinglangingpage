@@ -7,8 +7,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-color: #fcf3f6;
-  background: url("../materials/pexels-photo-196659.jpeg") no-repeat fixed;
+  background-color: black;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../materials/bgi.jpg") no-repeat fixed;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;

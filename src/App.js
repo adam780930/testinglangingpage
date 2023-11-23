@@ -1,5 +1,4 @@
 import { Route, Switch } from 'react-router-dom';
-
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -18,6 +17,9 @@ function App() {
         </Route>
         <Route path='/contact'>
           <ContactPage />
+        </Route>
+        <Route path='/landingpage'>
+          <HomePage />
         </Route>
       </Switch>
     </div>

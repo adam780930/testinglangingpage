@@ -16,7 +16,7 @@ function ContactmeForm() {
     }
 
     return (
-        <section className={classes.box}>
+        <section>
             <header className={classes.title}><span>Contact me</span></header>
         <form className={classes.form} onSubmit={Emailsubmit}>
             <div className={classes.control}>

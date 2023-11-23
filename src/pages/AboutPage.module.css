@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Overpass&display=swap');
 
-.title {
-    display: inline;
-    width: 100%;
-    font-size: 2rem;
-    color: black;
-    font-weight: bold;
-    width: 100%;
-    /* text-align: center; */
+.content {
+    margin-top: 150px;
+    display:flex;
+    justify-content:center;
 }
 
 .portrait {
-    position: relative;
+    /* position: relative;
     height: 250px;
     width: 250px;
     border-radius: 50%;
@@ -19,23 +15,26 @@
     border: 2px solid black;
     margin-left: 30%;
     float: left;
-    margin-top: 150px;
+    margin-top: 150px; */
+    height: 750px;
+    width: 550px;
+    border: 2px solid black;
+    margin-left: 10%;
 }
 
 .text {
     display: inline;
-    width: 50%;
-    margin-right: 20%;
-    text-align: right;
-    float: right;
+    font-size: 2rem;
+    font-weight: bold;
     font-family: 'Overpass', sans-serif;
+    margin-left: 2%;
+    margin-top: 5%;
+    max-height: 20vh;
+    max-width: 700px;
 }
 
-.text2 {
-    display: inline;
-    width: 25%;
-    margin-right: 20%;
-    text-align: right;
-    float: right;
-    font-family: 'Overpass', sans-serif;
+.text span {
+    font-size: 5rem;
+    color: white;
+    background: black;
 }

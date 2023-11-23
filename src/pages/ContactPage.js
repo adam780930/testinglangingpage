@@ -10,11 +10,6 @@ function ContactPage() {
         <section>
             <ContactmeForm />
             <div className={classes.iconContainer}>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/">
-                    <FontAwesomeIcon
-                        icon={faYoutube}
-                        className={classes.youtube}>
-                    </FontAwesomeIcon></a>
 
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/adam780930">
                     <FontAwesomeIcon
@@ -23,7 +18,7 @@ function ContactPage() {
                     </FontAwesomeIcon>
                 </a>
 
-                <a target="_blank" rel="noopener noreferrer" href="">
+                <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/adam-tsai-008377133/">
                     <FontAwesomeIcon
                         icon={faLinkedin}
                         className={classes.linkedin}>

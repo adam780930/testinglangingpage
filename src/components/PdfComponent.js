@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import PdfResume from '../resume.pdf';
+import PdfResume from '../materials/resume.pdf';
 
 
 export default function Test() {
@@ -11,6 +11,7 @@ export default function Test() {
 		`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 	const [numPages, setNumPages] = useState(null);
 	const [pageNumber, setPageNumber] = useState(1);
+	var documentSize = 1;
 
 	document.addEventListener("contextmenu", (event) => {
 		event.preventDefault();
@@ -32,13 +33,27 @@ export default function Test() {
 		changePage(1);
 	}
 
+	function getResolution() {
+		const windowHeight = (window.innerHeight * window.devicePixelRatio);
+
+		if (windowHeight <= 1080) {
+			documentSize = 0.8;
+		} else if (windowHeight < 960){
+			documentSize = 0.7;
+		} else {
+			documentSize = 1;
+		}
+	}
+
+	getResolution();
+
 	return (
 		<>
 			<div>
 				<Document
 					file={PdfResume}
 					onLoadSuccess={onDocumentLoadSuccess}>
-					<Page pageNumber={pageNumber} />
+					<Page pageNumber={pageNumber} scale={documentSize} />
 				</Document>
 				<div>
 					<div>
