@@ -1,0 +1,35 @@
+    h1 {
+      transform: translateY(250%);
+    }
+    .grid {
+    display: grid;
+    height: 400px;
+    width: 80%;
+    border: black 1px solid;
+    transform: translate(12.5%, 40%);
+  }
+  
+    .item {
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  /* 3 players: make the last one take two colums*/
+    .item:nth-child(3):last-child {
+    grid-column: span 2;
+  }
+  
+  
+  /* 4 players: make the fourth element in the second column */
+    .item:nth-child(4) {
+    grid-column: 2;
+  }
+
+  .item:hover {
+    cursor: pointer;
+    background: rgb(80, 79, 79);
+    text-decoration: none;
+}

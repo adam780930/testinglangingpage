@@ -1,10 +1,14 @@
 import classes from './Buttons.module.css';
 
-function buttons () {
+function buttons({linkOpen, downloadResume}) {
     return (
         <div className={classes.btn}>
-            <h2 className={classes.projects}>Projects</h2>
-            <h2 className={classes.resume}>Resume</h2>
+          <h2 className={classes.projects} onClick={linkOpen}>
+            Projects
+          </h2>
+          <h2 className={classes.resume} onClick={downloadResume}>
+            Resume
+          </h2>
         </div>
     );
 }

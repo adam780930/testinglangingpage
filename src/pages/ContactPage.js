@@ -1,6 +1,5 @@
 import ContactmeForm from "../components/ContactmeForm";
 import classes from './ContactPage.module.css';
-import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,6 +23,8 @@ function ContactPage() {
                         className={classes.linkedin}>
                     </FontAwesomeIcon>
                 </a>
+
+            
 
             </div>
         </section>
