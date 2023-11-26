@@ -22,19 +22,30 @@ function projectExamples() {
   }
   return (
     <div>
-      <h1>Sample projects</h1>
-      <div className={classes.grid}>
-        <div className={classes.item} onClick={linkOne}>
-          <img src={reservation} className={classes.projectImages} alt=""></img>
-        </div>
-        <div className={classes.item} onClick={linkTwo}>
-          <img src={recipe} className={classes.projectImages} alt=""></img>
-        </div>
-        <div className={classes.item} onClick={linkThree}>
-          <img src={flashcard} className={classes.projectImages} alt=""></img>
-        </div>
-        <div className={classes.item} onClick={linkFour}>
-          <img src={decoder} className={classes.projectImages} alt=""></img>
+      <div>Sample projects</div>
+      <div class="container">
+        <div class="row">
+          <div onClick={linkOne} class="col-lg-6 border border-dark">
+          <div className={classes.item}>
+            <img src={reservation} alt="" class="col-md-auto"></img>
+            </div>
+          </div>
+          <div onClick={linkTwo} class="col-lg-6 border border-dark">
+          <div className={classes.item}>
+            <img src={flashcard} alt="" class="col-md-auto"></img>
+            </div>
+          </div>
+          <div class="w-100"></div>
+          <div onClick={linkThree} class="col-lg-6 border border-dark">
+          <div className={classes.item}>
+            <img src={decoder} alt="" class="col-md-auto"></img>
+            </div>
+          </div>
+          <div onClick={linkFour} class="col-lg-6 border border-dark">
+            <div className={classes.item}>
+            <img src={recipe} alt="" class="col-md-auto" ></img>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -26,8 +26,10 @@ function HomePage() {
       <div className={classes.title}>
         Welcome to my landing page
         <Portrait />
-        <Buttons linkOpen={linkOpen} downloadResume={downloadResume}/>
-        <ProjectExamples />
+        <Buttons linkOpen={linkOpen} downloadResume={downloadResume} />
+        <div className={classes.grid}>
+          <ProjectExamples />
+        </div>
         {openModal && <Modal closeModal={setOpenModal} />}
       </div>
     </div>

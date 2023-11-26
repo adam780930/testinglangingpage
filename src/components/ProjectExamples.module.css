@@ -8,14 +8,6 @@
     border: black 1px solid;
     transform: translate(12.5%, 40%);
   }
-  
-    .item {
-    border: black 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
 
   /* 3 players: make the last one take two colums*/
     .item:nth-child(3):last-child {
