@@ -7,12 +7,9 @@
 }
 
 .portrait {
-    /* position: center;
-    text-align: center; */
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    /* display: block; */
     border: 2px solid black;
     margin: 0 auto;
     display: absolute;

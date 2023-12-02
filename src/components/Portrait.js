@@ -1,5 +1,5 @@
 import classes from './Portrait.module.css';
-import pfp from '../materials/pfp.jpg';
+import pfp from '../materials/pfp3.jpg';
 
 function Portrait() {
     return (
