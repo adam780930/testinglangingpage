@@ -22,7 +22,7 @@ function projectExamples() {
   }
   return (
     <div>
-      <div>Sample projects</div>
+      <div>Sample Projects</div>
       <div class="container">
         <div class="row">
           <div onClick={linkOne} class="col-lg-6 border border-dark">
