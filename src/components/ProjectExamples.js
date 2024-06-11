@@ -5,45 +5,65 @@ import flashcard from "../materials/fla.png";
 import decoder from "../materials/dec.png";
 
 function projectExamples() {
-  function linkOne() {
-    window.open("https://reservationapp.adamtsaidev.com/");
-  }
+  const projectLinks = {
+    reservation: "https://reservationapp.adamtsaidev.com/",
+    flashcard: "https://flashcardapp.adamtsaidev.com/",
+    decoder: "https://decoderapp.adamtsaidev.com/",
+    recipe: "https://recipeapp.adamtsaidev.com/",
+  };
 
-  function linkTwo() {
-    window.open("https://flashcardapp.adamtsaidev.com/");
-  }
-
-  function linkThree() {
-    window.open("https://decoderapp.adamtsaidev.com/");
-  }
-
-  function linkFour() {
-    window.open("https://recipeapp.adamtsaidev.com/");
-  }
   return (
     <div>
       <div>Sample Projects</div>
       <div class="container">
         <div class="row">
-          <div onClick={linkOne} class="col-lg-6 border border-dark">
-          <div className={classes.item}>
-            <img src={reservation} alt="" class="col-md-auto"></img>
+          <div class="col-lg-6 border border-dark">
+            <div className={classes.item}>
+              <img
+                src={reservation}
+                alt=""
+                class="col-md-auto my-3"
+                onClick={() => {
+                  window.open(projectLinks.reservation);
+                }}
+              ></img>
             </div>
           </div>
-          <div onClick={linkTwo} class="col-lg-6 border border-dark">
-          <div className={classes.item}>
-            <img src={flashcard} alt="" class="col-md-auto"></img>
+          <div class="col-lg-6 border border-dark">
+            <div className={classes.item}>
+              <img
+                src={flashcard}
+                alt=""
+                class="col-md-auto my-3"
+                onClick={() => {
+                  window.open(projectLinks.flashcard);
+                }}
+              ></img>
             </div>
           </div>
           <div class="w-100"></div>
-          <div onClick={linkThree} class="col-lg-6 border border-dark">
-          <div className={classes.item}>
-            <img src={decoder} alt="" class="col-md-auto"></img>
+          <div class="col-lg-6 border border-dark">
+            <div className={classes.item}>
+              <img
+                src={decoder}
+                alt=""
+                class="col-md-auto my-3"
+                onClick={() => {
+                  window.open(projectLinks.decoder);
+                }}
+              ></img>
             </div>
           </div>
-          <div onClick={linkFour} class="col-lg-6 border border-dark">
+          <div class="col-lg-6 border border-dark">
             <div className={classes.item}>
-            <img src={recipe} alt="" class="col-md-auto" ></img>
+              <img
+                src={recipe}
+                alt=""
+                class="col-md-auto my-3"
+                onClick={() => {
+                  window.open(projectLinks.recipe);
+                }}
+              ></img>
             </div>
           </div>
         </div>
