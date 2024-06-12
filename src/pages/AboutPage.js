@@ -4,19 +4,28 @@ import pfp2 from "../materials/pfp2.jpg";
 function AboutPage() {
   return (
     <div className={classes.content}>
-      <img src={pfp2} className={classes.portrait} alt=""></img>
-
-      <header className={classes.text}>
-        <span>Hi, I am Adam</span> <br></br>I am a passionate, highly motivated
-        and self-driven Full-Stack software engineer proficient in using
-        JavaScript, React, HTML, CSS, Rest API, Node.JS, Express,
-        PostgreSQL, and frameworks like Bootstrap. <br></br>
-        <p1></p1><br></br>I am eagerly seeking
-        new challenges and exciting opportunities to apply my development
-        skills, contributing to innovative and impactful projects. Please do not
-        hesitate to reach out to me if you believe I would be a valuable
-        addition to your team.
-      </header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <img src={pfp2} className={classes.portrait} alt="" ></img>
+          </div>
+          
+          <div class="col-4">
+            <header className={classes.text}>
+              <span>Hi, I am Adam</span> <br></br>I am a passionate, highly
+              motivated and self-driven Full-Stack software engineer proficient
+              in using JavaScript, TypeScript, React, Angular, HTML, CSS, Rest
+              API, Node.JS, Express, PostgreSQL, and frameworks like Bootstrap.
+              <br></br>
+              <br></br>I am dedicated to continuous learning and improvement in
+              the field of web development, and I am always seeking new
+              challenges and opportunities to grow. Connect with me on LinkedIn,
+              check out my GitHub profile, or view my portfolio to see more of
+              my work.
+            </header>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
