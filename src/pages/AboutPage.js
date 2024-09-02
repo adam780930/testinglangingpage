@@ -14,7 +14,7 @@ function AboutPage() {
             <header className={classes.text}>
               <span>Hi, I am Adam</span> <br></br>I am a passionate, highly
               motivated and self-driven Full-Stack software engineer proficient
-              in using JavaScript, TypeScript, React, Angular, HTML, CSS, Rest
+              in using JavaScript, TypeScript, React, Angular, HTML, CSS, REST
               API, Node.JS, Express, PostgreSQL, and frameworks like Bootstrap.
               <br></br>
               <br></br>I am dedicated to continuous learning and improvement in
