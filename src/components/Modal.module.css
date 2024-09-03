@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Overpass&display=swap');
 
-.modalBackground {
+/* .modalBackground {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, .7);
@@ -74,7 +74,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Manrope', sans-serif;
-  }
+  } */
   
   /* .modalContainer .footer button {
     width: 150px;
