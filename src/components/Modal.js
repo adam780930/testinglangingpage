@@ -6,15 +6,12 @@ import PdfResume from "../materials/resume.pdf";
 function Modal({ closeModal }) {
   return (
     <div
-      class="modal-dialog modal-lg modal-top"
-      onClick={(e) => {
-        
-        e.stopPropagation();
-      }}
+      class="modal-dialog modal-lg modal-dialog-centered"
+      
     >
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title" id="exampleModalScrollableTitle">
+          <h3 class="modal-title">
             Experiences
           </h3>
           <button
