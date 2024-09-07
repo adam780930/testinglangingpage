@@ -8,7 +8,7 @@ function Modal({ closeModal }) {
     <div
       class="modal-dialog modal-lg modal-top"
       onClick={(e) => {
-        closeModal(false);
+        
         e.stopPropagation();
       }}
     >
@@ -23,7 +23,7 @@ function Modal({ closeModal }) {
             data-dismiss="modal"
             aria-label="Close"
           >
-            <span aria-hidden="true">&times;</span>
+            <span aria-hidden="true" onClick={() => closeModal(false)}>&times;</span>
           </button>
         </div>
         <div class="modal-body text-left">
@@ -106,7 +106,7 @@ function Modal({ closeModal }) {
           </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" onClick={() => closeModal(false)}>
             Close
           </button>
         </div>
