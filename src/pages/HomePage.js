@@ -26,7 +26,7 @@ function HomePage() {
       <div className={classes.title}>
         Welcome to my landing page
         <Portrait />
-        <Buttons linkOpen={linkOpen} downloadResume={downloadResume} />
+        <Buttons linkOpen={linkOpen} downloadResume={resumeOpen} />
         <div className={classes.grid}>
           <ProjectExamples />
         </div>
