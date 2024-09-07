@@ -7,7 +7,7 @@ function buttons({linkOpen, downloadResume}) {
             Projects
           </h2>
           <h2 className={classes.resume} onClick={downloadResume}>
-            Resume
+            Experiences
           </h2>
         </div>
     );

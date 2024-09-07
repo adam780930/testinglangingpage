@@ -28,9 +28,9 @@ function HomePage() {
         <Portrait />
         <Buttons linkOpen={linkOpen} downloadResume={resumeOpen} />
         <div className={classes.grid}>
+          {openModal && <Modal closeModal={setOpenModal} />}
           <ProjectExamples />
         </div>
-        {openModal && <Modal closeModal={setOpenModal} />}
       </div>
     </div>
   );
