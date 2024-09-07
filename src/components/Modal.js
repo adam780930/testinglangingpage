@@ -5,22 +5,19 @@ import PdfResume from "../materials/resume.pdf";
 
 function Modal({ closeModal }) {
   return (
-    <div
-      class="modal-dialog modal-lg modal-dialog-centered"
-      
-    >
+    <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title">
-            Experiences
-          </h3>
+          <h3 class="modal-title">Experiences</h3>
           <button
             type="button"
             class="close"
             data-dismiss="modal"
             aria-label="Close"
           >
-            <span aria-hidden="true" onClick={() => closeModal(false)}>&times;</span>
+            <span aria-hidden="true" onClick={() => closeModal(false)}>
+              &times;
+            </span>
           </button>
         </div>
         <div class="modal-body text-left">
@@ -31,9 +28,9 @@ function Modal({ closeModal }) {
           <p class="h6">
             Frontend: TypeScript, JavaScript, React.js, Angular.js, HTML5, CSS3,
             Flexbox, Tailwind CSS, and Bootstrap<br></br>
-            Backend: Node.js, Express.js, RESTful API, and PostgreSQL Tools:
-            Mocha, Chai, Knex, Git, GitHub, Node Package Manager, DBeaver,
-            Postman, Visual Studio Code <br></br>
+            Backend: Node.js, Express.js, RESTful API, and PostgreSQL <br></br>
+            Tools: Mocha, Chai, Knex, Git, GitHub, Node Package Manager,
+            DBeaver, Postman, Visual Studio Code <br></br>
             Additional Skills: Mandarin, Japanese
           </p>
           <br></br>
@@ -103,7 +100,12 @@ function Modal({ closeModal }) {
           </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal" onClick={() => closeModal(false)}>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-dismiss="modal"
+            onClick={() => closeModal(false)}
+          >
             Close
           </button>
         </div>
