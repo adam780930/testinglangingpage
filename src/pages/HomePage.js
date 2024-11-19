@@ -5,6 +5,7 @@ import Modal from "../components/Modal";
 import PdfResume from "../materials/resume.pdf";
 import ProjectExamples from "../components/ProjectExamples";
 import Buttons from "../components/Buttons";
+import ResumeModal from "../components/ResumeModal";
 
 function HomePage() {
   function linkOpen() {
@@ -25,12 +26,9 @@ function HomePage() {
     <div>
       <div className={classes.title}>
         Welcome to my landing page
-        {openModal && <Modal closeModal={setOpenModal} />}
         <Portrait />
-        <Buttons linkOpen={linkOpen} downloadResume={resumeOpen} />
-        <div className={classes.grid}>
-          <ProjectExamples />
-        </div>
+        <ResumeModal linkOpen={linkOpen}/>
+        <ProjectExamples />
       </div>
     </div>
   );

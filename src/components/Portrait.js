@@ -1,12 +1,16 @@
-import classes from './Portrait.module.css';
-import pfp from '../materials/pfp3.jpg';
+import classes from "./Portrait.module.css";
+import pfp from "../materials/pfp3.jpg";
 
 function Portrait() {
-    return (
-        <div className={classes.title}>
-            <img src={pfp} className={classes.portrait} alt=""></img>
-        </div>
-    );
+  return (
+    <div class="text-center my-5">
+      <img
+        src={pfp}
+        class="rounded-circle border border-dark"
+        alt="avatar1"
+      ></img>
+    </div>
+  );
 }
 
 export default Portrait;
