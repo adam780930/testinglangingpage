@@ -1,26 +1,27 @@
 import React, { useState } from "react";
 import classes from "./HomePage.module.css";
 import Portrait from "../components/Portrait";
-import Modal from "../components/Modal";
-import PdfResume from "../materials/resume.pdf";
 import ProjectExamples from "../components/ProjectExamples";
-import Buttons from "../components/Buttons";
 import ResumeModal from "../components/ResumeModal";
+// import PdfResume from "../materials/resume.pdf";
+// import Buttons from "../components/Buttons";
+// import Modal from "../components/Modal";
+
 
 function HomePage() {
   function linkOpen() {
     window.open("https://project.adamtsaidev.com");
   }
 
-  function downloadResume() {
-    window.open(PdfResume);
-  }
+  // function downloadResume() {
+  //   window.open(PdfResume);
+  // }
 
-  function resumeOpen() {
-    setOpenModal(true);
-  }
+  // function resumeOpen() {
+  //   setOpenModal(true);
+  // }
 
-  const [openModal, setOpenModal] = useState(false);
+  // const [openModal, setOpenModal] = useState(false);
 
   return (
     <div>
