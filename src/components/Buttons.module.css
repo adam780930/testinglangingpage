@@ -29,6 +29,7 @@
     border: 2px solid black;
     border-radius: 10px;
     font-family: 'Manrope', sans-serif;
+    Width: 220px;
 }
 
 .resume {
@@ -44,6 +45,7 @@
     border: 2px solid black;
     border-radius: 10px;
     font-family: 'Manrope', sans-serif;
+    Width: 220px;
 }
 
 .projects:hover {
