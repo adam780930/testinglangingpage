@@ -12,8 +12,8 @@ function AboutPage() {
 
           <div class="col-6 my-auto">
             <div>
-              <span class="display-2">Hi, I am Adam</span>
-              <p class="h4 bg-light text-dark">
+              <span class="display-3 bg-dark text-light">Hi, I am Adam</span>
+              <p class="h4 bg-light text-dark px-2">
                 <br></br>I am a passionate, highly motivated and self-driven
                 Full-Stack software engineer proficient in using JavaScript,
                 TypeScript, React, Angular, HTML, CSS, Rest API, Node.JS,
