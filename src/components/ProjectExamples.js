@@ -14,7 +14,7 @@ function projectExamples() {
 
   return (
     <div>
-      <div>Sample Projects</div>
+      <div>React Projects</div>
       <div class="container">
         <div class="row">
           <div class="col-lg-6 border border-dark">

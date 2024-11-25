@@ -9,7 +9,7 @@ function ResumeModal({ linkOpen }) {
           class="mx-3 btn btn-dark btn-lg col-2"
           onClick={linkOpen}
         >
-          Projects
+          JS Projects
         </button>
         <button
           type="button"
@@ -71,9 +71,9 @@ function ResumeModal({ linkOpen }) {
                 Implemented numerous features following industry best practices
                 to create scalable and efficient solutions. <br></br>●
                 Collaborated in code reviews and provided feedback to improve
-                overall code quality and maintainability. <br></br>
-                ●Presented in-house applications to various departments,
-                highlighting their workflow-enhancing benefits. <br></br>
+                overall code quality and maintainability. <br></br>● Presented
+                in-house applications to various departments, highlighting their
+                workflow-enhancing benefits. <br></br>
                 <br></br>
                 Thinkful - Remote Software (02/2023 – 10/2023) <br></br>
                 Engineering Program <br></br>● Full-stack software engineer
@@ -92,18 +92,30 @@ function ResumeModal({ linkOpen }) {
               </h4>
               <hr></hr>
               <p class="h6">
-                Restaurant Reservation Application |
-                reservationapp.adamtsaidev.com <br></br>● Worked with a full
-                stack reservation and table management system. Versions tracked
-                with Git.<br></br>● Implemented a React router and Express to
-                build a RESTful API, to make HTTP requests for all the
-                reservation data stored in the connected PostgreSQL database.
+                <a
+                  href="https://reservationapp.adamtsaidev.com"
+                  target="_blank"
+                  class="h5"
+                >
+                  Restaurant Reservation Application
+                </a>
+                <br></br>● Worked with a full stack reservation and table
+                management system. Versions tracked with Git.<br></br>●
+                Implemented a React router and Express to build a RESTful API,
+                to make HTTP requests for all the reservation data stored in the
+                connected PostgreSQL database.
                 <br></br>● Created CRUD functions and Knex queries to handle
                 data going to and coming from databases.<br></br>● Technology:
                 JavaScript, React.js, Express.js, Knex, HTML5, CSS3, PostgreSQL,
                 RESTful API.<br></br>
                 <hr></hr>
-                Flashcard Application | flashcardapp.adamtsaidev.com
+                <a
+                  href="https://flashcardapp.adamtsaidev.com"
+                  target="_blank"
+                  class="h5"
+                >
+                  Flashcard Application
+                </a>
                 <br></br>● Created an application that allows users to create,
                 edit, and delete decks and cards within them.
                 <br></br>● Created a REST API and middleware functions to allow
@@ -113,14 +125,26 @@ function ResumeModal({ linkOpen }) {
                 JavaScript, React.js, Express.js, Knex, HTML5 and CSS3. Versions
                 tracked with Git.<br></br>
                 <hr></hr>
-                Recipe Tracker Application | recipeapp.adamtsaidev.com
+                <a
+                  href="https://recipeapp.adamtsaidev.com/"
+                  target="_blank"
+                  class="h5"
+                >
+                  Recipe Tracker Application
+                </a>
                 <br></br>● Built a React application to allow saving recipe
                 information.
                 <br></br>● Implemented the single responsibility principle with
                 React components.<br></br>● Technology: React.js, HTML5, CSS3,
                 Bootstrap<br></br>
                 <hr></hr>
-                Encryption/Decryption Application | decoderapp.adamtsaidev.com
+                <a
+                  href="https://decoderapp.adamtsaidev.com"
+                  target="_blank"
+                  class="h5"
+                >
+                  Encryption/Decryption Application
+                </a>
                 <br></br>● Built to be an encryption/decryption application to
                 communicate and read top-secret messages.<br></br>● Created
                 utilizing the test-driven development method.
