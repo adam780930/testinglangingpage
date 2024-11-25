@@ -4,7 +4,7 @@ import pfp2 from "../materials/pfp2.jpg";
 function AboutPage() {
   return (
     <div>
-      <div class="container-lg">
+      <div class="container-lg my-auto">
         <div class="row py-5">
           <div class="col-6">
             <img src={pfp2} className={classes.portrait} alt=""></img>
