@@ -1,6 +1,18 @@
+import ReactMarkdown from "react-markdown";
+import React, { useState, useEffect } from "react";
 import pfp2 from "../materials/pfp2.jpg";
+import markdownFile from './Aboutme.md'
 
 function AboutPage() {
+  const [markdownContent, setMarkdownContent] = useState("");
+
+  useEffect(() => {
+    fetch('./Aboutme.md')
+      .then((response) => response.text())
+      .then((text) => setMarkdownContent(text))
+      .catch((error) => console.error("Error fetching markdown:", error));
+  }, []);
+
   return (
     <div>
       <div class="container-lg my-auto">
@@ -53,6 +65,9 @@ function AboutPage() {
             </div>
           </div>
         </div>
+      </div>
+      <div class="text-center h1">
+        <ReactMarkdown>{markdownFile}</ReactMarkdown>
       </div>
     </div>
   );
