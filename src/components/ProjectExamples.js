@@ -22,6 +22,7 @@ function projectExamples() {
               <img
                 src={reservation}
                 alt=""
+                title="Restautant Revervation App"
                 class="col-md-auto my-3"
                 onClick={() => {
                   window.open(projectLinks.reservation);
@@ -34,6 +35,7 @@ function projectExamples() {
               <img
                 src={flashcard}
                 alt=""
+                title="Flashcard App"
                 class="col-md-auto my-3"
                 onClick={() => {
                   window.open(projectLinks.flashcard);
@@ -47,6 +49,7 @@ function projectExamples() {
               <img
                 src={decoder}
                 alt=""
+                title="Decoder App"
                 class="col-md-auto my-3"
                 onClick={() => {
                   window.open(projectLinks.decoder);
@@ -59,6 +62,7 @@ function projectExamples() {
               <img
                 src={recipe}
                 alt=""
+                title="Recipe App"
                 class="col-md-auto my-3"
                 onClick={() => {
                   window.open(projectLinks.recipe);
