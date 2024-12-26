@@ -30,7 +30,7 @@ function AboutPage() {
               <span class="display-3 bg-dark text-light border border-dark rounded">
                 Hi, I am Adam
               </span>
-              <p class="h4 bg-light text-dark border border-dark rounded px-2 mt-2">
+              {/* <p class="h4 bg-light text-dark border border-dark rounded px-2 mt-2">
                 I am a passionate, highly motivated and self-driven Full-Stack
                 software engineer living in California. My primary dev stack
                 are: JavaScript, TypeScript, React, Angular, HTML, CSS, Rest
@@ -61,13 +61,14 @@ function AboutPage() {
                   GitHub
                 </a>{" "}
                 profile, or view my portfolio to see more of my work.
-              </p>
+              </p> */}
+              <ReactMarkdown>{markdownContent}</ReactMarkdown>
             </div>
           </div>
         </div>
       </div>
       <div class="text-center h1">
-        <ReactMarkdown>{markdownContent}</ReactMarkdown>
+        
       </div>
     </div>
   );
