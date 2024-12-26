@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
-import classes from "./HomePage.module.css";
 import Portrait from "../components/Portrait";
 import ProjectExamples from "../components/ProjectExamples";
 import ResumeModal from "../components/ResumeModal";
@@ -20,14 +19,16 @@ function HomePage() {
 
   return (
     <div>
-      <div className={classes.title}>
+      <div class="h2 fw-bold text-center my-5">
         Welcome to my landing page
         <Portrait />
         <ResumeModal linkOpen={linkOpen} />
         <p class="h6 col-8 bg-light text-left text-dark border border-dark rounded mx-auto p-2 mt-2">
           <ReactMarkdown>{aboutThisWebsiteContent}</ReactMarkdown>
         </p>
+        <div class="my-5">
         <ProjectExamples />
+        </div>
       </div>
     </div>
   );
