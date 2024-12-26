@@ -4,11 +4,11 @@ import pfp2 from "../materials/pfp2.jpg";
 import aboutme from "../components/markdowndocs/Aboutme.md";
 
 function AboutPage() {
-  const [markdownContent, setMarkdownContent] = useState("");
+  const [aboutMeContent, setaboutMeContent] = useState("");
 
   fetch(aboutme)
     .then((response) => response.text())
-    .then((text) => setMarkdownContent(text))
+    .then((text) => setaboutMeContent(text))
     .catch((error) => console.error("Error fetching markdown:", error));
 
   return (
@@ -31,7 +31,7 @@ function AboutPage() {
                 </span>
               </div>
               <p class="h4 bg-light text-dark border border-dark rounded px-2 mt-2">
-                <ReactMarkdown>{markdownContent}</ReactMarkdown>
+                <ReactMarkdown>{aboutMeContent}</ReactMarkdown>
               </p>
             </div>
           </div>
